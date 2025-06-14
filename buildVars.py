@@ -27,7 +27,7 @@ addon_info = {
 NVDA driver to the Cerence Embedded TTS synth
 License required to use the voices."""),
 	# version
-	"addon_version" : "4.1.0",
+	"addon_version" : "4.1.1",
 	# Author(s)
 	"addon_author": "AccessMind LLC for Tiflotecnia, Lda",
 	# URL for the add-on documentation support
