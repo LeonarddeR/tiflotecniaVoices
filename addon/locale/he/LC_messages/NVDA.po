@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tiflotecniaVoices 4.0.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2024-05-01 19:40+0400\n"
-"PO-Revision-Date: 2024-05-02 00:45+0300\n"
+"POT-Creation-Date: 2024-05-01 05:34+0400\n"
+"PO-Revision-Date: 2024-05-01 08:53+0300\n"
 "Last-Translator: AccessMind voice manager <adi@accessmind.net>\n"
 "Language-Team: \n"
 "Language: he\n"
@@ -300,10 +300,12 @@ msgid "Opens license activation dialog"
 msgstr "פתיחת דו-שיח הפעלת הרישיון"
 
 #: addon\globalPlugins\tiflotecniaVoices\interface.py:110
-msgid "Open &documentation..."
-msgstr "פתיחת ה&תיעוד"
+msgid "open &documentation..."
+msgstr "פתיחת המדריך למשתמש..."
 
 #: addon\globalPlugins\tiflotecniaVoices\interface.py:110
+#, fuzzy
+#| msgid "Opens license activation dialog"
 msgid "Opens documentation"
 msgstr "פתיחת דו-שיח הפעלת הרישיון"
 
@@ -353,5 +355,25 @@ msgid "Tiflotecnia voices for NVDA"
 msgstr "קולות Tiflotecnia עבור NVDA"
 
 #: buildVars.py:25
-msgid "Tiflotecnia &voices for NVDA"
-msgstr "&קולות Tiflotecnia עבור NVDA"
+#, fuzzy
+#| msgid "Tiflotecnia voices for NVDA"
+msgid "&Tiflotecnia voices for NVDA"
+msgstr "קולות Tiflotecnia עבור NVDA"
+
+#~ msgid "&User guide..."
+#~ msgstr "מ&דריך למשתמש..."
+
+#~ msgid "Opens user guide"
+#~ msgstr "פתיחת המדריך למשתמש"
+
+#~ msgid "Tiflotecnia voices"
+#~ msgstr "קולות Tiflotecnia"
+
+#~ msgid "About Tiflotecnia voices for NVDA"
+#~ msgstr "אודות קולות Tiflotecnia עבור NVDA"
+
+#~ msgid "&Tiflotecnia voices "
+#~ msgstr "&קולות Tiflotecnia"
+
+#~ msgid "&About Tiflotecnia voices..."
+#~ msgstr "&אודות קולות Tiflotecnia..."

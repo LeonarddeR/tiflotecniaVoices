@@ -1,5 +1,6 @@
 import io
 import os.path
+import sys
 import contextlib
 from ctypes import *
 
@@ -24,8 +25,12 @@ def _newCopy(src):
     pointer(dst)[0] = src
     return dst
 
+kernel32 = WinDLL("kernel32", use_last_error=True)
+kernel32.FreeLibrary.argtypes = [wintypes.HMODULE]
+kernel32.FreeLibrary.restype = wintypes.BOOL
+
 def _freeLibrary(handle):
-    if windll.kernel32.FreeLibrary(handle) == 0:
+    if kernel32.FreeLibrary(handle) == 0:
         raise WindowsError()
     return True
 
@@ -75,7 +80,8 @@ def _initTtsEngineLib(path):
     return ttsEngineLib
 
 _basePath = os.path.dirname(__file__)
-libPath = os.path.join(_basePath, "lib")
+is_x64 = sys.maxsize > 2**32
+libPath = os.path.join(_basePath, "lib", "x64" if is_x64 else "x86")
 def preinitialize():
     global msvcrDll, ttsEngineLib, licenseLib, hSpeechClass, installResources
     msvcrDll = cdll.LoadLibrary(os.path.join(libPath, "msvcp140.dll"))

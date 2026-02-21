@@ -7,16 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tiflotecniaVoices 4.0.0\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2024-05-01 19:40+0400\n"
-"PO-Revision-Date: 2024-05-02 19:47+0100\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-02-21 17:14+0000\n"
+"PO-Revision-Date: 2026-02-21 17:44+0000\n"
 "Last-Translator: AccessMind voice manager <adi@accessmind.net>\n"
 "Language-Team: Tiflotecnia, Lda\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.8\n"
 
 #: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:22
 msgid "Enter the license key you have received after purchasing the software:"
@@ -54,7 +54,6 @@ msgid "No license key entered."
 msgstr "Não foi introduzida nenhuma chave de licença."
 
 #: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:65
-#, python-brace-format
 msgid "An error occurred while activating license: {0}."
 msgstr "Ocorreu um erro ao activar a licença: {0}."
 
@@ -67,7 +66,6 @@ msgid "Offline activation"
 msgstr "Activação offline"
 
 #: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:79
-#, python-brace-format
 msgid ""
 "This method will allow you to activate a license without an internet "
 "connection. To perform this action, enter the license key you have received "
@@ -75,8 +73,8 @@ msgid ""
 "import a license file received from the offline activation portal which can "
 "be accessed at: {url}."
 msgstr ""
-"Este método permite-lhe activar uma licença sem uma ligação à Internet. Para "
-"executar esta acção, introduza a chave de licença que recebeu após a compra "
+"Este método permite-lhe ativar uma licença sem uma ligação à Internet. Para "
+"executar esta ação, introduza a chave de ativação que recebeu após a compra "
 "do software, gere um ficheiro de identificação da máquina e importe um "
 "ficheiro de licença recebido do portal de ativação offline, que pode ser "
 "acedido em: {url}."
@@ -87,7 +85,6 @@ msgid "Save machine identification file"
 msgstr "Guardar o ficheiro de identificação da máquina"
 
 #: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:97
-#, python-brace-format
 msgid "Error saving identification data: {0}."
 msgstr "Erro ao guardar os dados de identificação: {0}."
 
@@ -100,7 +97,6 @@ msgid "Import license file"
 msgstr "Importar ficheiro de licença"
 
 #: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:115
-#, python-brace-format
 msgid "Error activating license: {0}."
 msgstr "Erro ao activar a licença: {0}."
 
@@ -109,12 +105,10 @@ msgid "Offline license has been successfully activated."
 msgstr "A licença offline foi acctivada com sucesso."
 
 #: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:126
-#, python-brace-format
 msgid "{name} product activation system"
 msgstr "Sistema de activação do {name}"
 
 #: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:132
-#, python-brace-format
 msgid "This program will allow you to activate your {name} software."
 msgstr "Este programa permite activar o software {name}."
 
@@ -143,7 +137,6 @@ msgid "Try the product for &7 days"
 msgstr "Experimente o produto durante &7 dias"
 
 #: addon\globalPlugins\tiflotecniaVoices\ActivationDialog.py:183
-#, python-brace-format
 msgid "An error occurred while activating a trial license: {0}."
 msgstr "Ocorreu um erro ao activar uma licença de avaliação: {0}."
 
@@ -162,33 +155,7 @@ msgstr "Sucesso"
 msgid "Error"
 msgstr "Erro"
 
-#: addon\globalPlugins\tiflotecniaVoices\__init__.py:42
-msgid "Latin"
-msgstr "Latim"
-
-#: addon\globalPlugins\tiflotecniaVoices\__init__.py:43
-msgid "Cyrillic"
-msgstr "Cirílico"
-
-#: addon\globalPlugins\tiflotecniaVoices\__init__.py:44
-msgid "CJK"
-msgstr "Chinês/Japonês/Coreano"
-
-#: addon\globalPlugins\tiflotecniaVoices\__init__.py:45
-msgid "Arabic"
-msgstr "Árabe"
-
-#: addon\globalPlugins\tiflotecniaVoices\__init__.py:46
-msgid "Hebrew"
-msgstr "Hebraico"
-
-#: addon\globalPlugins\tiflotecniaVoices\__init__.py:73
-#, python-brace-format
-msgid "Voice for {name} characters:"
-msgstr "Voz para caracteres em {name}:"
-
 #: addon\globalPlugins\tiflotecniaVoices\interface.py:17
-#, python-brace-format
 msgid ""
 "{name} version {version}.\n"
 "\n"
@@ -197,17 +164,17 @@ msgid ""
 "\n"
 "Cerence Embedded TTS, \n"
 "\n"
-"Copyright © 2024 Cerence, Inc. All rights reserved.\n"
+"Copyright Â© 2024 Cerence, Inc. All rights reserved.\n"
 "\n"
 "Runa TTS technology, including engine, NVDA interface, and license "
 "management:\n"
 "\n"
-"Copyright © 2024 AccessMind, LLC. All rights reserved.\n"
+"Copyright Â© 2024 AccessMind, LLC. All rights reserved.\n"
 msgstr ""
 "{name} versão {version}.\n"
 "\n"
 "Este produto baseia-se na tecnologia AccessMind Runa TTS e nas vozes Cerence "
-"TTS incorporadas. As condições de licença para cada componente são as "
+"Embedded TTS. As condições de licença para cada componente são as "
 "seguintes:\n"
 "\n"
 "Cerence Embedded TTS,\n"
@@ -219,7 +186,6 @@ msgstr ""
 "Direitos de autor © 2024 AccessMind, LLC. Todos os direitos reservados.\n"
 
 #: addon\globalPlugins\tiflotecniaVoices\interface.py:50
-#, python-brace-format
 msgid "Do you want to switch to {name} speech synthesizer?"
 msgstr "Pretende mudar para o sintetizador {name}?"
 
@@ -228,7 +194,6 @@ msgid "Switch speech synthesizer"
 msgstr "Alterar sintetizador de voz"
 
 #: addon\globalPlugins\tiflotecniaVoices\interface.py:58
-#, python-brace-format
 msgid ""
 "Are you sure you want to remove the license from this computer? The license "
 "will be transfered back to the server and the {name} will stop working."
@@ -255,7 +220,6 @@ msgid "File was not saved."
 msgstr "O ficheiro não foi guardado."
 
 #: addon\globalPlugins\tiflotecniaVoices\interface.py:75
-#, python-brace-format
 msgid "Error removing license: {0}."
 msgstr "Erro ao remover a licença: {0}."
 
@@ -272,12 +236,10 @@ msgid "No installed voices"
 msgstr "Sem vozes instaladas"
 
 #: addon\globalPlugins\tiflotecniaVoices\interface.py:94
-#, python-brace-format
 msgid "About {name}"
 msgstr "Sobre {name}"
 
 #: addon\globalPlugins\tiflotecniaVoices\interface.py:104
-#, python-brace-format
 msgid "{name} management options"
 msgstr "Opções de gestão das {name}"
 
@@ -314,7 +276,6 @@ msgid "Opens documentation"
 msgstr "Abre a documentação"
 
 #: addon\globalPlugins\tiflotecniaVoices\interface.py:111
-#, python-brace-format
 msgid "&About {name}..."
 msgstr "&Sobre {name}..."
 
@@ -322,46 +283,103 @@ msgstr "&Sobre {name}..."
 msgid "Shows about dialog"
 msgstr "Mostra o diálogo Sobre"
 
-#: addon\synthDrivers\tiflotecniaVoices\__init__.py:31
-#, python-brace-format
+#: addon\globalPlugins\tiflotecniaVoices\utils.py:7
+msgid "summary"
+msgstr "sumário"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:42
+msgid "Latin"
+msgstr "Latim"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:43
+msgid "Cyrillic"
+msgstr "Cirílico"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:44
+msgid "CJK"
+msgstr "Chinês/Japonês/Coreano"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:45
+msgid "Arabic"
+msgstr "Árabe"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:46
+msgid "Hebrew"
+msgstr "Hebraico"
+
+#: addon\globalPlugins\tiflotecniaVoices\__init__.py:73
+msgid "Voice for {name} characters:"
+msgstr "Voz para caracteres em {name}:"
+
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:51
 msgid "{0} MS"
 msgstr "{0} MS"
 
-#: addon\synthDrivers\tiflotecniaVoices\__init__.py:34
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:54
 msgid "Lowest"
 msgstr "Baixa"
 
-#: addon\synthDrivers\tiflotecniaVoices\__init__.py:35
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:55
 msgid "enhanced"
 msgstr "melhorada"
 
-#: addon\synthDrivers\tiflotecniaVoices\__init__.py:36
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:56
 msgid "Intermediate"
 msgstr "Intermédia"
 
-#: addon\synthDrivers\tiflotecniaVoices\__init__.py:37
-#: addon\synthDrivers\tiflotecniaVoices\__init__.py:38
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:57
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:58
 msgid "highest"
 msgstr "elevada"
 
-#: addon\synthDrivers\tiflotecniaVoices\__init__.py:170
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:190
 msgid "Automatically switch language based on unicode characters"
 msgstr "Mudança automática de idioma com base em caracteres unicode"
 
-#: addon\synthDrivers\tiflotecniaVoices\__init__.py:171
+#: addon\synthDrivers\tiflotecniaVoices\__init__.py:191
 msgid "&Pauses between sentences"
 msgstr "&Pausas entre frases"
 
-#. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:24 buildVars.py:28
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:21
 msgid "Tiflotecnia voices for NVDA"
 msgstr "Vozes Tiflotecnia para o NVDA"
 
-#: buildVars.py:25
-msgid "Tiflotecnia &voices for NVDA"
-msgstr "&Vozes Tiflotecnia para NVDA"
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
+msgid ""
+"Tiflotecnia voices for NVDA\n"
+"NVDA driver to the Cerence Embedded TTS synth\n"
+"License required to use the voices."
+msgstr ""
+"Vozes Tiflotecnia para NVDA\n"
+"Driver NVDA para o sintetizador Cerence Embedded TTS\n"
+"Licença necessária para usar as vozes."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:31
+msgid ""
+"Change for 64-bit.\n"
+"\tAllows usage in NVDA 32 and 64-bit versions."
+msgstr ""
+"Alteração para 64 bits.\n"
+"\tPermite o uso nas versões NVDA 32 e 64 bits."
 
 #~ msgid "&Tiflotecnia voices for NVDA"
 #~ msgstr "Vozes &Tiflotecnia para o NVDA"
 
+#~ msgid "Tiflotecnia voices"
+#~ msgstr "קולות Tiflotecnia"
+
+#~ msgid "About Tiflotecnia voices for NVDA"
+#~ msgstr "אודות קולות Tiflotecnia עבור NVDA"
+
+#~ msgid "&Tiflotecnia voices "
+#~ msgstr "&קולות Tiflotecnia"
+
+#~ msgid "&About Tiflotecnia voices..."
+#~ msgstr "&אודות קולות Tiflotecnia..."

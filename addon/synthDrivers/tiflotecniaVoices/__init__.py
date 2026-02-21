@@ -125,9 +125,9 @@ class VECallback(object):
                 return NUAN_E_TTS_USERSTOP
             elif messageType == VE_MSG_OUTBUFREQ:
                 outData.contents.pOutPcmBuf = cast(self._pcmBuf, c_void_p)
-                outData.contents.cntPcmBufLen = c_uint(pcmBufLen)
+                outData.contents.cntPcmBufLen = pcmBufLen
                 outData.contents.pMrkList = cast(self._markBuf, POINTER(VE_MARKINFO))
-                outData.contents.cntMrkListLen = c_uint(markBufSize * sizeof(VE_MARKINFO))
+                outData.contents.cntMrkListLen = markBufSize * sizeof(VE_MARKINFO)
             elif messageType == VE_MSG_OUTBUFDONE:
                 if outData.contents.cntPcmBufLen > 0:
                     data = string_at(outData.contents.pOutPcmBuf, outData.contents.cntPcmBufLen)
