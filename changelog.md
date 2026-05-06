@@ -1,4 +1,6 @@
-Changes forChange for 64-bit.
+Compability with NVDA 2026.1
 
-&nbsp;	Allows usage in NVDA 32 and 64-bit versions.
+Changes for 64-bit.
+
+ 	Allows usage in NVDA 32 and 64-bit versions.
 
