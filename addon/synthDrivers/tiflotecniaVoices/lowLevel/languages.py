@@ -68,3 +68,7 @@ _vautoTLWToLocaleNames = {
 
 def getLocaleNameFromTLW(tlw):
 	return _vautoTLWToLocaleNames.get(tlw, None)
+
+
+def getTLWFromLocaleName(localeName):
+	return {v: k for k, v in _vautoTLWToLocaleNames.items()}.get(localeName, None)
