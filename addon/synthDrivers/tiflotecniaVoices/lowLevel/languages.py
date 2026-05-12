@@ -1,3 +1,5 @@
+from functools import lru_cache
+
 _vautoTLWToLocaleNames = {
 	"ARG": "ar",
 	"ARW": "ar",
@@ -70,5 +72,6 @@ def getLocaleNameFromTLW(tlw):
 	return _vautoTLWToLocaleNames.get(tlw, None)
 
 
+@lru_cache(maxsize=None)
 def getTLWFromLocaleName(localeName):
 	return {v: k for k, v in _vautoTLWToLocaleNames.items()}.get(localeName, None)
